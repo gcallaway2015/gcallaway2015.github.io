@@ -18,6 +18,8 @@ Aliases:  www.georgecallaway.com
           gcallaway2015.github.io
 ```
 
+The browswer still goes to the networksolutions site at georgecallaway.com. I will wait a bit, then play with my A record.
+
 ## Default content
 
 You can use the [editor on GitHub](https://github.com/gcallaway2015/gcallaway2015.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
