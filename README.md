@@ -18,7 +18,7 @@ Aliases:  www.georgecallaway.com
           gcallaway2015.github.io
 ```
 
-The browswer still goes to the networksolutions site at georgecallaway.com. I will wait a bit, then play with my A record.
+The browswer still goes to the networksolutions site at georgecallaway.com. I added the two addresses specified by github to my A record, and now I wait.
 
 ## Default content
 
