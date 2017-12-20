@@ -1,5 +1,24 @@
 ## Welcome to GitHub Pages
 
+## Creating my Site Pages
+
+I created my site pages and content. I went to my DNS CNAME to point www to gcallaway2015.github.io. It was just a few minutes before I checked nslookup to find that it answered.
+
+...markdown
+C:\Users\George>nslookup www.georgecallaway.com
+Server:  UnKnown
+Address:  192.168.1.1
+
+Non-authoritative answer:
+Name:    sni.github.map.fastly.net
+Addresses:  2a04:4e42:d::403
+          151.101.53.147
+Aliases:  www.georgecallaway.com
+          gcallaway2015.github.io
+...
+
+## Default content
+
 You can use the [editor on GitHub](https://github.com/gcallaway2015/gcallaway2015.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
