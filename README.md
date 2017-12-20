@@ -4,7 +4,8 @@
 
 I created my site pages and content. I went to my DNS CNAME to point www to gcallaway2015.github.io. It was just a few minutes before I checked nslookup to find that it answered.
 
-...markdown
+```markdown
+
 C:\Users\George>nslookup www.georgecallaway.com
 Server:  UnKnown
 Address:  192.168.1.1
@@ -15,7 +16,7 @@ Addresses:  2a04:4e42:d::403
           151.101.53.147
 Aliases:  www.georgecallaway.com
           gcallaway2015.github.io
-...
+```
 
 ## Default content
 
