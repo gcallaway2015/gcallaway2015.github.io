@@ -18,7 +18,34 @@ Aliases:  www.georgecallaway.com
           gcallaway2015.github.io
 ```
 
-The browswer still goes to the networksolutions site at georgecallaway.com. I added the two addresses specified by github to my A record, and now I wait.
+
+CNAME Record
+
+|Alias | TTL | Host |
+|:---|---|---|
+|www.georgecallaway.com|3600|gcallaway2015.github.io.|
+
+The browswer still goes to the networksolutions site at georgecallaway.com. I added the two addresses specified by github to my A record, and now I wait. About an hour later, and a reboot of my local router, it worked.
+
+```
+C:\Users\George>nslookup georgecallaway.com
+Server:  UnKnown
+Address:  192.168.1.1
+
+Non-authoritative answer:
+Name:    georgecallaway.com
+Addresses:  192.30.252.153
+          192.30.252.154
+```
+
+A Records
+
+|Host | TTL | IP |
+|:---|---|---|
+|@ (None) |7200|192.30.252.153| 
+|* (All Others) |7200|192.30.252.153| 
+|* (All Others) |7200|192.30.252.154| 
+|@ (None) |7200|192.30.252.154| 
 
 ## Default content
 
