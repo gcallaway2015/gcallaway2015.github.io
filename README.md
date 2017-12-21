@@ -4,11 +4,13 @@
 
 I created my site pages and content. I went to my DNS CNAME to point www to gcallaway2015.github.io. It was just a few minutes before I checked nslookup to find that it answered.
 
-```markdown
+```DOS .bat
 
 C:\Users\George>nslookup www.georgecallaway.com
 Server:  UnKnown
 Address:  192.168.1.1
+
+
 
 Non-authoritative answer:
 Name:    sni.github.map.fastly.net
@@ -27,7 +29,7 @@ CNAME Record
 
 The browswer still goes to the networksolutions site at georgecallaway.com. I added the two addresses specified by github to my A record, and now I wait. About an hour later, and a reboot of my local router, it worked.
 
-```
+```DOS .bat
 C:\Users\George>nslookup georgecallaway.com
 Server:  UnKnown
 Address:  192.168.1.1
@@ -46,6 +48,11 @@ A Records
 |* (All Others) |7200|192.30.252.153| 
 |* (All Others) |7200|192.30.252.154| 
 |@ (None) |7200|192.30.252.154| 
+
+## Projects in flight
+
+Check out [war-pi-gs](https://github.com/gcallaway2015/war-pi-gs/tree/jagged-edge)!
+
 
 ## Default content
 
