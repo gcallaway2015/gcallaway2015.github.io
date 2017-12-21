@@ -4,8 +4,7 @@
 
 I created my site pages and content. I went to my DNS CNAME to point www to gcallaway2015.github.io. It was just a few minutes before I checked nslookup to find that it answered.
 
-```DOS .bat
-
+```
 C:\Users\George>nslookup www.georgecallaway.com
 Server:  UnKnown
 Address:  192.168.1.1
@@ -30,8 +29,7 @@ CNAME Record
 
 The browswer still goes to the networksolutions site at georgecallaway.com. I added the two addresses specified by github to my A record, and now I wait. About an hour later, and a reboot of my local router, it worked.
 
-```DOS .bat
-
+```
 C:\Users\George>nslookup georgecallaway.com
 Server:  UnKnown
 Address:  192.168.1.1
