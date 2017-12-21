@@ -18,6 +18,7 @@ Addresses:  2a04:4e42:d::403
           151.101.53.147
 Aliases:  www.georgecallaway.com
           gcallaway2015.github.io
+          
 ```
 
 
@@ -30,6 +31,7 @@ CNAME Record
 The browswer still goes to the networksolutions site at georgecallaway.com. I added the two addresses specified by github to my A record, and now I wait. About an hour later, and a reboot of my local router, it worked.
 
 ```DOS .bat
+
 C:\Users\George>nslookup georgecallaway.com
 Server:  UnKnown
 Address:  192.168.1.1
@@ -38,6 +40,7 @@ Non-authoritative answer:
 Name:    georgecallaway.com
 Addresses:  192.30.252.153
           192.30.252.154
+          
 ```
 
 A Records
